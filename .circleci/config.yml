@@ -9,6 +9,8 @@
            filters:
              tags:
                only: /^release.*/
+             branches:
+              ignore: /.*/
            requires:
              - one
  jobs: # we now have TWO jobs, so that a workflow can coordinate them!
