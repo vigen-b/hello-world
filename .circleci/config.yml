@@ -8,7 +8,7 @@
        - two:
            filters:
              tags:
-               only: /^release.*/
+               only: /^v.*/
              branches:
               ignore: /.*/
            requires:
